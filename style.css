@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css?family=Galada';
+body {
+	font-family:'Galada', cursive;
+}
+h1, h2 {
+	text-align: center;
+	font-size: 26px;
+}
+
+.column-container {
+	display: flex;
+}
+.column {
+	background-color: #79D812;
+	margin: 10px;
+	text-align: center;
+}
+.create-column, .add-card {
+	background-color: #3222A6;
+	height: 40px;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+}
+.column-list {
+	list-style: none;
+	padding: 0;
+	min-height: 400px;
+}
+.card {
+	text-align: center;
+}
+#theImg {
+	height: 29px;
+	/*margin-top: 17px;*/
+	cursor: pointer;
+}
+#theImg1 {
+	height: 29px;
+	margin-top: 0;
+	cursor: pointer;
+}
